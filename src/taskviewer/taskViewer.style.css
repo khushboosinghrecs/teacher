@@ -1,0 +1,89 @@
+.parent {
+  display: flex;
+  margin-left: 20px !important;
+}
+
+.parent > input {
+  color: rgba(11, 156, 156, 0.705);
+  font-weight: bold;
+  font-size: 20px;
+  padding: 2px;
+}
+
+.firstchild {
+  display: flex;
+  margin-left: 40px !important;
+}
+
+.firstchild > input {
+  font-weight: bold;
+  font-size: 20px;
+  padding: 2px;
+}
+
+.secondchild {
+  display: flex;
+  margin-left: 60px !important;
+}
+
+.secondchild > input {
+  font-size: 20px;
+  padding: 2px;
+  opacity: 0.7;
+}
+
+.task-view {
+  padding: 5px 0px;
+}
+
+.task-controller {
+  cursor: pointer;
+  background-color: "red";
+}
+
+.taskName {
+  width: 80vw;
+  height: 30px;
+  margin-left: 20px;
+  border: none;
+  background-color: white;
+}
+.taskinputContainer {
+  display: flex;
+}
+
+.indent-positon {
+  background: rgba(238, 236, 236, 0.986);
+  width: 30px;
+  margin-left: 10px;
+  height: 40px;
+}
+.task-control-buttons {
+  display: flex;
+  width: 100px;
+  margin-left: 8px;
+}
+
+.search-container {
+  margin: 2px;
+  padding: 2px;
+  border: 1px solid #e0dfdf;
+  /* padding: 0.5em 0.5em 0.5em 0.5em; */
+  border-right: none;
+  border-left: none;
+  border-bottom: none;
+  box-sizing: border-box;
+}
+
+.search-box{
+  width: 100%;
+  height: 30px;
+  border: none;
+  background-color: white;
+  color: grey;
+  font-weight: bold;
+  font-size: large;
+  align-items: center;
+}
+
+
